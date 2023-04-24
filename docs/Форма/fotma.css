@@ -1,0 +1,137 @@
+body{
+    background: rgb(96,154,200);
+background: linear-gradient(90deg, rgba(96,154,200,1) 0%, rgba(41,201,143,1) 60%, rgba(63,185,124,1) 100%);
+    font-family: 'Titillium Web', sans-serif;
+}
+div.menu{
+    position: fixed;
+    top: 3%;
+    left: 40%;
+    height: 650px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+}
+div.menu h1{
+    font-size:35px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom:0;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+div.menu form h2{
+    color:#242424;
+    font-size:13px;
+    margin-bottom: 0;
+}
+div.menu div.log1,div.log2{
+    width: 350px;
+    border-bottom:2px solid #000;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+div.menu div.log1 input,div.log2 input{
+    border:none;
+    background: inherit;
+    font-size: 15px;
+    color:lightslategray;
+    padding: 10px;
+    width: 300px
+}
+div.menu div.log1 img,div.log2 img{
+    cursor: pointer;
+    margin: 0;
+    padding-top: 7px;
+}
+div.menu p a{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #023;
+    padding-bottom: 0;
+    margin-bottom:0;
+}
+div.menu p a:hover{
+    text-decoration: underline;
+}
+div.menu p{
+    margin-bottom:0;
+    padding-bottom: 0;
+
+}
+form{
+    height: 126px;
+}
+div.menu a.login{
+    width: 350px;
+    height: 50px;
+    padding:10px 0;
+    background: rgb(41,201,178);
+    background: linear-gradient(90deg, rgba(41,201,178,1) 21%, rgba(63,94,185,1) 40%, rgba(245,16,205,1) 66%);
+    text-align: center;
+    background-size: 150%;
+    font-size: 18px;
+    border-radius: 26px;
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: none;
+    margin:10px auto;
+    transition: background 1s ease;
+
+}
+div.menu a.login:hover{
+    background-position: right center;
+}
+div.menu a.login:hover::before{
+    animation: logo 5s infinite;
+}
+@keyframes logo{
+    0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 100% 0;
+      }
+}
+div.menu div.our p{
+    text-align: center;
+    margin-top: 0;
+}
+div.menu ul{
+    list-style-type: none;
+}
+div.menu ul li{
+    display: inline-block;
+}
+div.menu ul li a{
+    text-decoration: none;
+}
+div.menu ul li a img{
+    width:45px;
+    height:45px;
+    margin-left: 45px;
+}
+div.footer{
+    height: 10px;
+}
+div.footer span p{
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+div.footer h2{
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+div.footer h2 a{
+    text-decoration: none;
+    color: #242424;
+}
+div.footer h2 a:hover{
+    text-decoration:underline;
+}
+
